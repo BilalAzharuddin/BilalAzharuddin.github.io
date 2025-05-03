@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Journal | Muhammad Azharuddin</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar" data-aos="fade-down">
+      <div class="logo">Muhammad Azharuddin</div>
+	  <button class="nav-toggle">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="blog.html" class="active">Journal</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section class="blog-intro" data-aos="zoom-in">
+      <h1>My Portfolio Journal</h1>
+      <p>Technical writeups, learning milestones, and reflections from my journey in cybersecurity and IT.</p>
+    </section>
+
+    <section class="blog-posts">
+      <article class="blog-post" data-aos="fade-up" data-aos-delay="100">
+        <h2>🔍 How Relevant Coursework has Helped Me During Internships</h2>
+        <p>Exploring how foundational IT coursework in areas like network security, systems management, and programming directly translated into real-world effectiveness during my internship. From understanding encryption protocols to managing incident response, I reflect on the academic concepts that empowered my professional contributions.</p>
+      </article>
+
+      <article class="blog-post" data-aos="fade-up" data-aos-delay="200">
+        <h2>💻 Behind the Scenes of HALALIFY’s Backend</h2>
+        <p>Exploring how our API structure handles thousands of delivery updates efficiently using Node.js and MongoDB, and how we designed a secure token-based auth system for riders and users.</p>
+      </article>
+
+      <article class="blog-post" data-aos="fade-up" data-aos-delay="300">
+        <h2>📈 What I’ve Learned from IT Helpdesk Work</h2>
+        <p>Real-world user support taught me more about people, systems, and patience than any textbook. Here's what breaks most often, what users struggle with, and what surprised me most.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer data-aos="fade-up">
+    <p>&copy; 2025 Muhammad Azharuddin | Tempe, AZ | AzharuddinB.Muhammad@gmail.com</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>
